@@ -20,7 +20,7 @@ let mail = nodemailer.createTransport({
 app.post('/', (req, res) => {
     var mailOptions = {
         from: 'dyoungqr@gmail.com',
-        to: 'cdrobitvitalii@gmail.com',
+        to: 'youth.camp.friendship@gmail.com',
         subject: 'Хтось написав відгук для підліткового...',
         text: `Ім\я: ${req.body.name} | Повідомлення: ${req.body.message}`
       };
